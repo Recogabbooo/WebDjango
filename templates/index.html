@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class='col'>
+<h1>{{mensaje}} </h1>
+{% include 'products/snippets/search.html' %}
+
+
+<div class='row'>
+    {% include "products/snippets/listP.html" %}
+</div>
+
+</div>   
+    {% endblock %}
+

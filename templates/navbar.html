@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+
+{% url 'login' as login %}
+{% url 'registro' as registro %}
+{% url 'carts' as cart %}
+
+
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="{% url 'index' %}">TiendaB</a>
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      
+      
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      {% if user.is_authenticated %}
+        <ul class='navbar-nav'>
+          
+
+        <li class='navbar-item'>
+          <a class="navbar-link" href="{% url 'salir' %}">
+            Salir</a>
+          </li>
+
+                  </ul>
+        {% else %}
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == login %} active {% endif %} " aria-current="page" href="{{login}}">
+                <span class="fas fa-user">
+                </span>
+                Login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link {% if request.path == registro %} active {% endif %} " aria-current="page" href="{{registro}}">
+                <span class="fas fa-user">
+                </span>
+                Registro</a>
+          </li>
+           </ul>
+          {% endif %}
+
+
+                  <ul class='navbar-nav'>
+                  <li class='nav-item'>
+                  <a class='nav-link' href="{% url 'cart' %}">Carrito</a>
+
+                  </li>
+                    
+                  </ul>
+
+          
+
+
+       
+      </div>
+    </div>
+  </nav>
