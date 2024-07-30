@@ -3,6 +3,8 @@ from .models import Cart
 from products.models import Product
 from .funciones import funcionCarrito
 from django.shortcuts import redirect
+from django.shortcuts import get_object_or_404
+
 
 def cart(request):
     cart = funcionCarrito(request)
@@ -14,7 +16,7 @@ def cart(request):
 
 def add(request):
     cart = funcionCarrito(request)
-    product = Product.objects.get(pk=request.POST.get('product_id'))
+    product = get_object_or_404 (Product, pk=request.POST.get('product_id'))
     
     cart.products.add(product)
     
@@ -24,7 +26,7 @@ def add(request):
     
 def remove(request):
         cart = funcionCarrito(request)
-        product = Product.objects.get(pk=request.POST.get('product_id'))
+        product = get_object_or_404 (Product, pk=request.POST.get('product_id'))
         
         cart.products.remove(product)
 

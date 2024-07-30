@@ -6,7 +6,7 @@
 {% if cart.products.exists %}
 
 <div class='col-8'>
-<table class='table'>
+    <table class='table'>
     <thead>
         <tr>
             <th scope='col'></th>
@@ -42,8 +42,27 @@
         {% endfor %}
 
     </tbody>
-</table>
+    </table>
+
 </div>
+
+<div class='col'>
+    <div class='card'>
+        <div class='card-body'>
+            <div>
+                 Subtotal:({{cart.products.count}}): <span class='text-danger'> {{ cart.subtotal | precio_tag }} </span>
+            </div>
+            <div class='mt-2'>
+                <a href="#" class='btn btn-warning'> Pagar ahora </a>
+            </div>
+            <div class='mt-2'>
+                <a href="{% url 'index' %}" class='btn btn-primary'>Seguir comprando</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 {% else %}
 
