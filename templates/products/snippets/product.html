@@ -1,13 +1,14 @@
-<div class='card h-100 w-100'>
+{% load static %}
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
     {% if i.image %}
-
-    <img src="{{i.image.url}}" alt="gorra" height='200' width='300'>
+    <img src="{{i.image.url}}" alt="gorra" height="300">
     {% endif %}
     
     <div class='card-body'>
     <h5 class='card-text'>{{i.titles}}</h5>
     <p class='card-text'>{{i.description}}</p>
-    <a href="{% url 'product' i.slug %}" class='btn btn-primary'>Mas Info</a>
+
+    <a href="{% url 'product' i.slug %}" class='btn btn-danger'>Mas Info</a>
     </div>
 
 </div>

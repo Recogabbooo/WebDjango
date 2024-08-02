@@ -6,7 +6,7 @@
 {% if cart.products.exists %}
 
 <div class='col-8'>
-    <table class='table'>
+    <table class='table table-bordered'>
     <thead>
         <tr>
             <th scope='col'></th>
@@ -18,20 +18,22 @@
     </thead>
 
     <tbody>
-        {% for product in cart.products.all %}
+        {% for i in cart.product_related %}
+        {% with product=i.product %}
+        
         <tr>
 
         <th> {{ forloop.counter }} </th>
         <th> {% if product.image %}
         <img src="{{product.image.url}}" alt="ImagenProducto" width='70' height='70'>
         {% endif %}
-
         </th>
+
             <th>
                 <a href="{% url 'product' product.slug %}"> {{ product.title }} </a>
             </th>
             <th>
-                1
+                {{ i.quantity }}
             </th>
 
             <th>
@@ -39,6 +41,8 @@
             {% include 'carts/snippets/remove.html' %}
             </th>
         </tr>
+        {% endwith %}
+
         {% endfor %}
 
     </tbody>
@@ -53,7 +57,7 @@
                  Subtotal:({{cart.products.count}}): <span class='text-danger'> {{ cart.subtotal | precio_tag }} </span>
             </div>
             <div class='mt-2'>
-                <a href="#" class='btn btn-warning'> Pagar ahora </a>
+                <a href="{% url 'orden' %}" class='btn btn-warning'> Pagar ahora </a>
             </div>
             <div class='mt-2'>
                 <a href="{% url 'index' %}" class='btn btn-primary'>Seguir comprando</a>

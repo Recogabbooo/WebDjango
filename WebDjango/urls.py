@@ -1,6 +1,5 @@
 from django.contrib import admin
-from django.urls import path
-from django.urls import include
+from django.urls import path, include
 from products.views import ProductListView
 from . import views
 from django.conf.urls.static import static
@@ -15,6 +14,7 @@ urlpatterns = [
     path('social-auth/', include('social_django.urls', namespace="social")),
     path('productos/', include('products.urls')),
     path('carrito/', include('carts.urls')),
+    path('orden/', include('orden.urls')),
 
 ]
 if settings.DEBUG:
