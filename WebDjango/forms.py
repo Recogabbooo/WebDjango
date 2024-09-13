@@ -1,7 +1,8 @@
 from django import forms
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
 from django.forms.fields import EmailField
 from django.forms.widgets import EmailInput
+from users.models import User
 
 class Registro(forms.Form):
     username = forms.CharField(required=True, min_length=5, max_length=40, 

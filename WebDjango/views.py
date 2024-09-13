@@ -6,8 +6,11 @@ from django.shortcuts import redirect
 from django.contrib import messages
 from django.contrib.auth import logout
 from .forms import Registro
-from django.contrib.auth.models import User
+# from django.contrib.auth.models import User
 from products.models import Product
+from django.http import HttpResponseRedirect
+from users.models import User
+from django.contrib.auth import get_user_model
 
 
 def index(request):
@@ -30,7 +33,13 @@ def login(request):
         if usuarios:
             lg(request, usuarios)
             messages.success(request, f'Bienvenido {usuarios.username}')
+            
+            if request.GET.get('next'):
+                return HttpResponseRedirect(request.GET['next'])
+            
             return redirect('index')
+
+
         else:
             messages.error(request, 'Datos incorrectos')
             

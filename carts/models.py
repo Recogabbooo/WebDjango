@@ -5,6 +5,7 @@ from django.db .models.signals import pre_save, post_save
 import uuid
 from django.db.models.signals import m2m_changed
 import decimal
+from orden.comun import OrdenStatus
 
 
 
@@ -25,6 +26,10 @@ class Cart(models.Model):
     def update_totals(self):
         self.update_subtotal()
         self.update_total()
+
+        if self.orden:
+            self.orden.update_total()
+
         
     def update_subtotal(self):
         self.subtotal = sum([
@@ -39,7 +44,11 @@ class Cart(models.Model):
         
     def product_related(self):
         return self.cartproduct_set.select_related('product')
-    
+
+
+    @property
+    def orden (self):
+        return self.orden_set.filter(status=OrdenStatus.CREATED).first()
 
 class CartProductManager(models.Manager):  
     
@@ -75,7 +84,7 @@ def set_cart_id(sender, instance, *args, **kwargs):
            
            
 def update_totals(sender, instance, action, *args, **kwargs):
-    if action == 'post_add' or action == 'post_remove' or action == ' post_clear':
+    if action == 'post_add' or action == 'post_remove' or action == 'post_clear':
         instance.update_totals()
 
 def postActualizar(sender, instance, *args, **kwargs):

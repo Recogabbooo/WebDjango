@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     'users',
     'carts',
     'orden',
+    'DirEnvio',
+    'promo_codigo',
 ]
 
 MIDDLEWARE = [
@@ -61,6 +63,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'WebDjango.urls'
+
+AUTH_USER_MODEL = 'users.User'
 
 TEMPLATES = [
     {

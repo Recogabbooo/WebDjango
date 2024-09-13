@@ -18,3 +18,7 @@ def funcionCarrito(request):
     
     
     return cart
+    
+
+def deleteCart(request):
+    request.session['cart_id'] = None

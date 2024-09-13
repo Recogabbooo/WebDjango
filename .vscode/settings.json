@@ -1,5 +1,13 @@
 {
     "editor.guides.bracketPairs": "active",
     "editor.guides.highlightActiveBracketPair": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.useInlineCompletions": true,
+    "git.allowForcePush": true,
+    "git.allowNoVerifyCommit": false,
+    "git.alwaysShowStagedChangesResourceGroup": false,
+    "git.alwaysSignOff": false,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
