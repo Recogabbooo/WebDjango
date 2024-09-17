@@ -32,6 +32,10 @@ ALLOWED_HOSTS = []
 SOCIAL_AUTH_FACEBOOK_KEY = "1031885175219617"
 SOCIAL_AUTH_FACEBOOK_SECRET = "312b9656e519e6c8365153bfad77f406"
 
+STRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'
+
+STRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'
+
 
 # Application definition
 
@@ -50,6 +54,7 @@ INSTALLED_APPS = [
     'orden',
     'DirEnvio',
     'promo_codigo',
+    'MetodoPago',
 ]
 
 MIDDLEWARE = [

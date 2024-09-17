@@ -17,6 +17,8 @@ urlpatterns = [
     path('orden/', include('orden.urls')),
     path('direcciones/', include('DirEnvio.urls')),
     path('codigopromo/', include('promo_codigo.urls')),
+    path('pagos/', include('MetodoPago.urls')),
+
 
 
 ]

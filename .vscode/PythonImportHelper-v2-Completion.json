@@ -65,6 +65,54 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -105,22 +153,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -138,6 +170,22 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -377,38 +425,6 @@
         "documentation": {}
     },
     {
-        "label": "messages",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -425,11 +441,43 @@
         "documentation": {}
     },
     {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
         "isExtraImport": true,
-        "detail": "django.apps",
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -478,6 +526,30 @@
         "description": "django.apps",
         "isExtraImport": true,
         "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "users.models",
+        "description": "users.models",
+        "isExtraImport": true,
+        "detail": "users.models",
         "documentation": {}
     },
     {
@@ -699,6 +771,14 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -716,6 +796,14 @@
     },
     {
         "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -835,6 +923,14 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -920,6 +1016,14 @@
         "description": "django.views.generic",
         "isExtraImport": true,
         "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
         "documentation": {}
     },
     {
@@ -1068,6 +1172,14 @@
         "documentation": {}
     },
     {
+        "label": "PromoCodigo",
+        "importPath": "promo_codigo.models",
+        "description": "promo_codigo.models",
+        "isExtraImport": true,
+        "detail": "promo_codigo.models",
+        "documentation": {}
+    },
+    {
         "label": "cancelar_orden",
         "importPath": "orden.views",
         "description": "orden.views",
@@ -1158,6 +1270,14 @@
         "documentation": {}
     },
     {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
         "label": "JsonResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -1179,6 +1299,14 @@
         "description": "django.http",
         "isExtraImport": true,
         "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "validate_cart_and_order",
+        "importPath": "orden.decorador",
+        "description": "orden.decorador",
+        "isExtraImport": true,
+        "detail": "orden.decorador",
         "documentation": {}
     },
     {
@@ -1593,6 +1721,42 @@
     {
         "label": "Migration",
         "kind": 6,
+        "importPath": "MetodoPago.migrations.0001_initial",
+        "description": "MetodoPago.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProfilePago',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "MetodoPago.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "MetodopagoConfig",
+        "kind": 6,
+        "importPath": "MetodoPago.apps",
+        "description": "MetodoPago.apps",
+        "peekOfCode": "class MetodopagoConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'MetodoPago'",
+        "detail": "MetodoPago.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ProfilePago",
+        "kind": 6,
+        "importPath": "MetodoPago.models",
+        "description": "MetodoPago.models",
+        "peekOfCode": "class ProfilePago(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    token = models.CharField(max_length=50, null=False, blank=False)\n    card_id = models.CharField(max_length=50, null=False, blank=False)\n    last4 = models.CharField(max_length=4, null=False, blank=False)\n    brand = models.CharField(max_length=10, null=False, blank=False)\n    default = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.card_id",
+        "detail": "MetodoPago.models",
+        "documentation": {}
+    },
+    {
+        "label": "crear",
+        "kind": 2,
+        "importPath": "MetodoPago.views",
+        "description": "MetodoPago.views",
+        "peekOfCode": "def crear(request):\n    return render(request, 'metodos_pago/profile_pago.html', {\n    })",
+        "detail": "MetodoPago.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
         "importPath": "orden.migrations.0001_initial",
         "description": "orden.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('carts', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Orden',\n            fields=[",
@@ -1615,6 +1779,15 @@
         "description": "orden.migrations.0003_orden_direccion_envio",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('DirEnvio', '0001_initial'),\n        ('orden', '0002_alter_orden_total'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orden',\n            name='direccion_envio',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='DirEnvio.direccionenvio'),",
         "detail": "orden.migrations.0003_orden_direccion_envio",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "orden.migrations.0004_orden_promo_codigo",
+        "description": "orden.migrations.0004_orden_promo_codigo",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('orden', '0003_orden_direccion_envio'),\n        ('promo_codigo', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='orden',\n            name='promo_codigo',\n            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='promo_codigo.promocodigo'),",
+        "detail": "orden.migrations.0004_orden_promo_codigo",
         "documentation": {}
     },
     {
@@ -1658,7 +1831,7 @@
         "kind": 6,
         "importPath": "orden.models",
         "description": "orden.models",
-        "peekOfCode": "class Orden(models.Model):\n    ordenID = models.CharField(max_length=100, null=False, blank=False, unique=True)\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    cart = models.ForeignKey(Cart, on_delete=models.CASCADE)\n    status = models.CharField(max_length=40, choices=choices, default=OrdenStatus.CREATED)\n    envio_total = models.DecimalField(default=10, max_digits=9, decimal_places=2)\n    total = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)\n    created_at = models.DateTimeField(auto_now_add=True)\n    direccion_envio = models.ForeignKey(DireccionEnvio, null=True, blank=True, on_delete=models.CASCADE)\n    def __str__(self):",
+        "peekOfCode": "class Orden(models.Model):\n    ordenID = models.CharField(max_length=100, null=False, blank=False, unique=True)\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    cart = models.ForeignKey(Cart, on_delete=models.CASCADE)\n    status = models.CharField(max_length=40, choices=choices, default=OrdenStatus.CREATED)\n    envio_total = models.DecimalField(default=10, max_digits=9, decimal_places=2)\n    total = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)\n    created_at = models.DateTimeField(auto_now_add=True)\n    direccion_envio = models.ForeignKey(DireccionEnvio, null=True, blank=True, on_delete=models.CASCADE)\n    promo_codigo = models.OneToOneField(PromoCodigo, null=True, blank=True, on_delete=models.CASCADE)",
         "detail": "orden.models",
         "documentation": {}
     },
@@ -1951,11 +2124,20 @@
         "documentation": {}
     },
     {
+        "label": "PromoCodigoManager",
+        "kind": 6,
+        "importPath": "promo_codigo.models",
+        "description": "promo_codigo.models",
+        "peekOfCode": "class PromoCodigoManager(models.Manager):\n    def get_validar(self, code):\n        actual = timezone.now()\n        return self.filter(codigo=code).filter(used=False).filter(fecha_inicio__lte=actual).filter(fecha_final__gte=actual).first()\nclass PromoCodigo(models.Model):\n    codigo = models.CharField(max_length=50, unique=True)\n    descuento = models.FloatField(default=0.0)\n    fecha_inicio = models.DateTimeField()\n    fecha_final = models.DateTimeField()\n    used = models.BooleanField(default=False)",
+        "detail": "promo_codigo.models",
+        "documentation": {}
+    },
+    {
         "label": "PromoCodigo",
         "kind": 6,
         "importPath": "promo_codigo.models",
         "description": "promo_codigo.models",
-        "peekOfCode": "class PromoCodigo(models.Model):\n    codigo = models.CharField(max_length=50, unique=True)\n    descuento = models.FloatField(default=0.0)\n    fecha_inicio = models.DateTimeField()\n    fecha_final = models.DateTimeField()\n    used = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.codigo\ndef set_codigo(sender, instance, *args, **kwargs):",
+        "peekOfCode": "class PromoCodigo(models.Model):\n    codigo = models.CharField(max_length=50, unique=True)\n    descuento = models.FloatField(default=0.0)\n    fecha_inicio = models.DateTimeField()\n    fecha_final = models.DateTimeField()\n    used = models.BooleanField(default=False)\n    created_at = models.DateTimeField(auto_now_add=True)\n    objects = PromoCodigoManager()\n    def __str__(self):\n        return self.codigo",
         "detail": "promo_codigo.models",
         "documentation": {}
     },
@@ -1982,7 +2164,7 @@
         "kind": 2,
         "importPath": "promo_codigo.views",
         "description": "promo_codigo.views",
-        "peekOfCode": "def validar(request): \n        codigo = request.GET.get('code')\n        promo_codigo = PromoCodigo.objects.filter(codigo=codigo).first()\n        if promo_codigo is None:\n            print(\"HOLA\")\n            return JsonResponse({\n                'status': False,\n            }, status = 404)\n        return JsonResponse({\n            'status': True,",
+        "peekOfCode": "def validar(request, cart, orden): \n        codigo = request.GET.get('code')\n        promo_codigo = PromoCodigo.objects.get_validar(codigo)\n        if promo_codigo is None:\n            print(\"HOLA\")\n            return JsonResponse({\n                'status': False,\n            }, status = 404)\n        orden.aplicarCodigo(promo_codigo)\n        return JsonResponse({",
         "detail": "promo_codigo.views",
         "documentation": {}
     },
@@ -2063,7 +2245,7 @@
         "kind": 5,
         "importPath": "WebDjango.settings",
         "description": "WebDjango.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-cv8z1lo9+2sq9+8xvslb8l!qv)+&2i!uky$u9)f)*e6q#&!yd$'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-cv8z1lo9+2sq9+8xvslb8l!qv)+&2i!uky$u9)f)*e6q#&!yd$'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\nSTRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [",
         "detail": "WebDjango.settings",
         "documentation": {}
     },
@@ -2072,7 +2254,7 @@
         "kind": 5,
         "importPath": "WebDjango.settings",
         "description": "WebDjango.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\nSTRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "WebDjango.settings",
         "documentation": {}
     },
@@ -2081,7 +2263,7 @@
         "kind": 5,
         "importPath": "WebDjango.settings",
         "description": "WebDjango.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "ALLOWED_HOSTS = []\nSOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\nSTRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "WebDjango.settings",
         "documentation": {}
     },
@@ -2090,7 +2272,7 @@
         "kind": 5,
         "importPath": "WebDjango.settings",
         "description": "WebDjango.settings",
-        "peekOfCode": "SOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "SOCIAL_AUTH_FACEBOOK_KEY = \"1031885175219617\"\nSOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\nSTRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "WebDjango.settings",
         "documentation": {}
     },
@@ -2099,7 +2281,25 @@
         "kind": 5,
         "importPath": "WebDjango.settings",
         "description": "WebDjango.settings",
-        "peekOfCode": "SOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'social_django',",
+        "peekOfCode": "SOCIAL_AUTH_FACEBOOK_SECRET = \"312b9656e519e6c8365153bfad77f406\"\nSTRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "WebDjango.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STRIPE_PUBLIC_KEY",
+        "kind": 5,
+        "importPath": "WebDjango.settings",
+        "description": "WebDjango.settings",
+        "peekOfCode": "STRIPE_PUBLIC_KEY = 'pk_test_51Pzb4hCPQe35j10b0QeLwHKo3zQRd4w1BI0M1hvIRX776ckDnM4qB3WvAffqAhdfc4VdfRGRDptjmsmFiDtN4kXD003pTKi9Ru'\nSTRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "WebDjango.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STRIPE_PRIVATE_KEY",
+        "kind": 5,
+        "importPath": "WebDjango.settings",
+        "description": "WebDjango.settings",
+        "peekOfCode": "STRIPE_PRIVATE_KEY = 'sk_test_51Pzb4hCPQe35j10blxGtkssZKN3jqx8ymUgZUvxYkS6vZBzY9NsMTbeWkWSLBDi9qbxMxOXZEGlnav3dnHCTx3C8007yqqREri'\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'social_django',",
         "detail": "WebDjango.settings",
         "documentation": {}
     },

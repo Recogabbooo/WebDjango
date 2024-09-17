@@ -45,8 +45,15 @@
                         Codigo de descuento
                     </div>
                     <form id="formPromo-codigo" action="{% url 'validar' %}">
-                        <input type="text" name="codigo" value="" class="form-control" placeholder="Codigo Descuento">
+                        <input type="text" name="codigo" value="{{orden.promo_codigo.codigo}}" 
+                        class="form-control" placeholder="Codigo Descuento" {% if orden.promo_codigo. %}
+                        readonly{% endif %}>
                     </form>
+                    <div class="text-success" id="codigosuccess" style="font-size:15px;">
+                        {% if orden.promo_codigo %}
+                    Codigo Aplicado
+                    {% endif %}
+                    </div>
                 </div>
 
             </div>
@@ -90,8 +97,6 @@
 
     </div>
 
-
-
 </div>
 
 
@@ -107,18 +112,27 @@
         const input = this.codigo
         const codigo = input.value;
         const url = this.action + '?code=' + codigo;
+        const cont_total =document.getElementById('orden-total')
+        const cont_success = document.getElementById('codigosuccess')
 
         console.log(url);    
 
         fetch(url)
         .then(response => response.json())
         .then(response => {
-            console.log(response.descuento)
+            if(response.status === true) {
+                cont_total.innerHTML = "$" + response.total
+
+                cont_success.classList.remove('text-danger');
+                cont_success.classList.add("text-success")
+                cont_success.innerHTML = "Codigo Aplicado"
+
+            } else{
+                cont_success.innerHTML = "Codigo no valido"
+                cont_success.classList.remove("text-success")
+                cont_success.classList.add("text-danger")
+            }
         })
-
-
-
-
     })
 </script>
 
